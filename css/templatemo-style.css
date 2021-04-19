@@ -6,12 +6,12 @@ https://templatemo.com/tm-521-get-ready
 
 */
   
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
   body {
     margin: 0;
     -webkit-perspective: 1000;
-    font-family: "Roboto", "Poppins", sans-serif;
+    font-family: "Montserrat", "Poppins", sans-serif;
     background: #993639;
   }
 
@@ -90,7 +90,7 @@ https://templatemo.com/tm-521-get-ready
 
   .overlay {
     background: linear-gradient(to top right, #dfcfcf, #993639);
-    opacity: 0.8;
+    opacity: 0.7;
     position: absolute;
     top: 0;
     right: 0;
