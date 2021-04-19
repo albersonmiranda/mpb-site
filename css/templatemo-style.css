@@ -6,12 +6,12 @@ https://templatemo.com/tm-521-get-ready
 
 */
   
-  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
   body {
     margin: 0;
     -webkit-perspective: 1000;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Roboto", "Poppins", sans-serif;
     background: #303030;
   }
 
@@ -87,7 +87,7 @@ https://templatemo.com/tm-521-get-ready
   }
 
   .overlay {
-    background: linear-gradient(to top right, #d2b48c, #000000);
+    background: linear-gradient(to top right, #dfcfcf, #000000);
     opacity: 0.9;
     position: absolute;
     top: 0;
@@ -106,7 +106,7 @@ https://templatemo.com/tm-521-get-ready
   }
 
   .grid-line {
-    height: 300vh;
+    /*height: 300vh;*/
     border-right: 1px solid rgba(255,255,255,0.02);
   }
 
@@ -350,7 +350,7 @@ https://templatemo.com/tm-521-get-ready
   
   .countdown {
     text-align: center;
-    margin: 50px 0;
+    margin: 10px 0;
     padding: 0;
   }
 
