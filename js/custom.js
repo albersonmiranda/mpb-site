@@ -1,29 +1,27 @@
-(function ($) {
+(function($) {
 
-  "use strict";
+    "use strict";
 
     // PRE LOADER
-    $(window).load(function(){
-      $('.preloader').fadeOut(1000); // set duration in brackets    
+    $(window).load(function() {
+        $('.preloader').fadeOut(1000); // set duration in brackets    
     });
 
 
     // MENU
     $('.menu-burger').on('click', function() {
-      $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
-      $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
+        $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
+        $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
     });
 
 
     // ABOUT SLIDER
     $('body').vegas({
         slides: [
-            { src: 'images/vitoria1.jpg' },
-            { src: 'images/meninas1.jpeg' },
-            { src: 'images/meninas2.jpeg' }
+            { src: 'images/vitoria1.jpg' }
         ],
         timer: false,
-        transition: [ 'zoomOut', ]
+        transition: ['zoomOut', ]
     });
 
 })(jQuery);
